@@ -17,19 +17,16 @@ $ npm i @fngr/loady
 import loady from '@fngr/loady'
 
 loady({
-  triggerElement: document.getElementById('myButton'),
-  event: 'click',
-  storageItem: 'load-chartjs-consent',
-  script: 'https://cdn.jsdelivr.net/npm/chart.js@2.8.0',
+  triggerElement: document.getElementById('myButton'), // element the eventlistener will be added to, must be DOMElement
+  event: 'click', // event type that triggers event listener on triggerElement
+  storageItem: 'load-chartjs-consent', // the key of the item that will be placed in localStorage to determine consent
+  script: 'https://cdn.jsdelivr.net/npm/chart.js@2.8.0', // the script url to load
+  // object of attributes that should be added to script tag
   attributes: {
     defer: true,
   },
 })
 ```
-
-### Options
-
-TBA
 
 ### License
 
