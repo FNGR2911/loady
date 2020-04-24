@@ -1,6 +1,6 @@
 {
   "name": "@fngr/loady",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Load scripts after an event like a click on a button",
   "main": "dist/loady.js",
   "author": "Matthias Fänger",
@@ -12,8 +12,8 @@
     "compliance",
     "load"
   ],
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "https://github.com/FNGR2911/loady"
   },
   "scripts": {
