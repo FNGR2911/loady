@@ -1,0 +1,30 @@
+{
+  "name": "@fngr/loady",
+  "version": "0.1.0",
+  "description": "Load Scripts after consent click with JavaScript",
+  "main": "dist/loady.js",
+  "author": "Matthias Fänger",
+  "license": "MIT",
+  "keywords": [
+    "consent",
+    "javascript",
+    "gdpr",
+    "compliance",
+    "load"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode='production'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

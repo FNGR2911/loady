@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loady</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-content: center;
+      }
+      #load {
+        border: 1px solid #eee;
+        background: transparent;
+        padding: 6px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+      <button id="load">Click me to load js</button>
+    </div>
+    <script src="./loady.js"></script>
+  </body>
+</html>
