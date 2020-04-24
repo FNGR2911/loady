@@ -12,6 +12,10 @@
     "compliance",
     "load"
   ],
+  "repository" : {
+    "type" : "git",
+    "url": "https://github.com/FNGR2911/loady"
+  }
   "scripts": {
     "build": "webpack --config webpack.config.js --mode='production'"
   },
