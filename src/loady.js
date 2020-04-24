@@ -1,4 +1,4 @@
-export const loady = ({ triggerElement, event = 'click', storageItem, script, attributes }) => {
+const loady = ({ triggerElement, event = 'click', storageItem, script, attributes }) => {
   if (triggerElement instanceof HTMLElement === false) {
     throw new Error('triggerElement is not a DOM Element.')
   }
@@ -41,3 +41,5 @@ export const loady = ({ triggerElement, event = 'click', storageItem, script, at
   triggerElement.addEventListener(event, () => run())
   if (consent === 'true') triggerElement.click()
 }
+
+export default loady

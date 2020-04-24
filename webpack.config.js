@@ -11,8 +11,11 @@ module.exports = {
       },
     ],
   },
+  mode: 'production',
   output: {
     filename: 'loady.js',
     path: path.resolve(__dirname, 'dist'),
+    library: 'loady',
+    libraryTarget: 'umd',
   },
 }
