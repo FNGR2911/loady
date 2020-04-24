@@ -1,7 +1,7 @@
 {
   "name": "@fngr/loady",
   "version": "0.1.0",
-  "description": "Load Scripts after consent click with JavaScript",
+  "description": "Load Scripts after consent event with JavaScript",
   "main": "dist/loady.js",
   "author": "Matthias Fänger",
   "license": "MIT",
