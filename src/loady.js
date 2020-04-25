@@ -39,7 +39,7 @@ const loady = ({ triggerElement, event = 'click', storageItem, script, attribute
   }
 
   triggerElement.addEventListener(event, () => run())
-  if (consent === 'true') triggerElement.click()
+  if (consent === 'true') run()
 }
 
 export default loady
