@@ -1,6 +1,6 @@
 {
   "name": "@fngr/loady",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Load scripts after an event like a click on a button",
   "main": "dist/loady.js",
   "author": "Matthias Fänger",
